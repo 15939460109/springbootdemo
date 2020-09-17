@@ -5,6 +5,7 @@ import com.czg.config.VegetablesConfig;
 import com.czg.domain.Food;
 import com.czg.domain.Vegetables;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,6 +16,11 @@ public class JsonController {
     private FoodConfig foodConfig;
     @Autowired
     private VegetablesConfig vegetablesConfig;
+
+    @Value("${info.username}")
+    private String username;
+    @Value("${info.password}")
+    private String password;
 
     @RequestMapping("/food")
     public Food food() {
@@ -32,5 +38,14 @@ public class JsonController {
         vegetables.setEggplant(vegetablesConfig.getEggplant());
         vegetables.setGreenPepper(vegetablesConfig.getGreenPepper());
         return vegetables;
+    }
+
+    @RequestMapping("/jasypt")
+    public String jasypt() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(username);
+        builder.append("----");
+        builder.append(password);
+        return builder.toString();
     }
 }

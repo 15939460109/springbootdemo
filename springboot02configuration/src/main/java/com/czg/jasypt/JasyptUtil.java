@@ -2,6 +2,7 @@ package com.czg.jasypt;
 
 import org.jasypt.util.text.BasicTextEncryptor;
 
+//加密
 public class JasyptUtil {
 
     public static void main(String[] args) {
