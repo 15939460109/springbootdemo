@@ -33,6 +33,14 @@
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
         </dependency>
+
+        <!--Jaypt加密依赖配置-->
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

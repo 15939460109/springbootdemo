@@ -21,6 +21,7 @@ public class JsonController {
         Food food = new Food();
         food.setRice(foodConfig.getRice());
         food.setMeat(foodConfig.getMeat());
+        food.setSauce(foodConfig.getSauce());
         return food;
     }
 
