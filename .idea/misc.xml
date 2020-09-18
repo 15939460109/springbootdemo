@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/springboot01helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot02configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-template/pom.xml" />
       </list>
     </option>
   </component>

@@ -22,6 +22,7 @@ food:
 #流式语法结构
 #food: {rice: 大米饭,meat: 烤肉}
 
+#激活profiles
 spring:
   profiles:
     active: dev

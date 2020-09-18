@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!--变了表达式-->
+    <p th:text="${name}">name</p>
+    <!--utext不对html标签进行转义-->
+    <p th:utext="${name}">name</p>
+
+    <p th:text="${restaurant.boss}">restaurant boss</p>
+    <p th:text="${restaurant.chef}">chef</p>
+
+    <!--选择变量表达式-->
+    <div th:object="${restaurant}">
+        <p>boss: <span th:text="*{boss}">boss</span>.</p>
+        <p>chef: <span th:text="*{chef}">chef</span>.</p>
+    </div>
+
+    <!--链接URL表达式-->
+    <a href="/welcome" th:href="@{/welcome}">welcome</a>
+
+    <!--消息表达式-->
+    <p th:text="#{something}"> message</p>
+
+    <!--片段表达式-->
+    <div th:insert="footer :: copy"></div>
+    <div th:replace="footer :: copy"></div>
+    <div th:include="footer :: copy"></div>
+</body>
+</html>
