@@ -7,16 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot01helloworld" />
         <module name="springboot-03-template" />
+        <module name="springboot-03-web-restful" />
+        <module name="springboot01helloworld" />
         <module name="springboot-03-templdate" />
-        <module name="springboot02configuration" />
         <module name="springboot-03-thymeleaf-crud" />
+        <module name="springboot02configuration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-03-template" target="1.8" />
       <module name="springboot-03-thymeleaf-crud" target="1.8" />
+      <module name="springboot-03-web-restful" target="1.8" />
       <module name="springboot01helloworld" target="1.8" />
       <module name="springboot02configuration" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-03-template" options="-parameters" />
       <module name="springboot-03-thymeleaf-crud" options="-parameters" />
+      <module name="springboot-03-web-restful" options="-parameters" />
       <module name="springboot01helloworld" options="-parameters" />
       <module name="springboot02configuration" options="-parameters" />
     </option>

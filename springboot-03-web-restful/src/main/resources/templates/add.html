@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>添加嘉宾</title>
+    <link rel="stylesheet" th:href="@{/form.css}">
+</head>
+<body>
+
+    <h2 class="mt20 ml12">添加嘉宾</h2>
+
+    <form th:action="@{/guest/add}" method="post" class="ml50">
+        <div class="mt20">
+            name: <input class="input" type="text" name="name">
+        </div>
+        <div class="mt20 ml12">
+            role: <input class="input" type="text" name="role">
+        </div>
+        <input type="submit" value="提交" class="mt20 ml50">
+    </form>
+</body>
+</html>
