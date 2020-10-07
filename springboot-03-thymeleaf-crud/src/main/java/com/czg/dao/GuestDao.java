@@ -16,7 +16,6 @@ public class GuestDao {
         guestList.add(new Guest("秦海璐", "财务"));
         guestList.add(new Guest("林述巍", "主厨"));
         guestList.add(new Guest("杨紫", "大堂经理"));
-        guestList.add(new Guest("仝卓", "帮厨"));
         guestList.add(new Guest("王鹤棣", "帮厨"));
     }
 
