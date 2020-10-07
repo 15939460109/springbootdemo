@@ -11,10 +11,12 @@
         <module name="springboot-03-template" />
         <module name="springboot-03-templdate" />
         <module name="springboot02configuration" />
+        <module name="springboot-03-thymeleaf-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-03-template" target="1.8" />
+      <module name="springboot-03-thymeleaf-crud" target="1.8" />
       <module name="springboot01helloworld" target="1.8" />
       <module name="springboot02configuration" target="1.8" />
     </bytecodeTargetLevel>
@@ -22,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-03-template" options="-parameters" />
+      <module name="springboot-03-thymeleaf-crud" options="-parameters" />
       <module name="springboot01helloworld" options="-parameters" />
       <module name="springboot02configuration" options="-parameters" />
     </option>

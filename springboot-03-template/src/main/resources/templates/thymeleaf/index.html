@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 <body>
-    <!--变了表达式-->
+    <!--变量表达式-->
     <p th:text="${name}">name</p>
     <!--utext不对html标签进行转义-->
     <p th:utext="${name}">name</p>
@@ -23,7 +23,7 @@
     <a href="/welcome" th:href="@{/welcome}">welcome</a>
 
     <!--消息表达式-->
-    <p th:text="#{something}"> message</p>
+    <p th:text="#{something}">message</p>
 
     <!--片段表达式-->
     <div th:insert="footer :: copy"></div>
