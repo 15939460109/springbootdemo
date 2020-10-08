@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-03-template/springboot-03-template.iml" filepath="$PROJECT_DIR$/springboot-03-template/springboot-03-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-thymeleaf-crud/springboot-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/springboot-03-thymeleaf-crud/springboot-03-thymeleaf-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-web-restful/springboot-03-web-restful.iml" filepath="$PROJECT_DIR$/springboot-03-web-restful/springboot-03-web-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-04-mybatis-plus/springboot-04-mybatis-plus.iml" filepath="$PROJECT_DIR$/springboot-04-mybatis-plus/springboot-04-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-04-orm-jpa/springboot-04-orm-jpa.iml" filepath="$PROJECT_DIR$/springboot-04-orm-jpa/springboot-04-orm-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-04-orm-mybatis/springboot-04-orm-mybatis.iml" filepath="$PROJECT_DIR$/springboot-04-orm-mybatis/springboot-04-orm-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" filepath="$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" />
