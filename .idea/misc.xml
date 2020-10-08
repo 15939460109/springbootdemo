@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/springboot-03-template/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-thymeleaf-crud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-03-web-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-orm-jpa/pom.xml" />
       </list>
     </option>
   </component>

@@ -13,12 +13,14 @@
         <module name="springboot-03-templdate" />
         <module name="springboot-03-thymeleaf-crud" />
         <module name="springboot02configuration" />
+        <module name="springboot-04-orm-jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot-03-template" target="1.8" />
       <module name="springboot-03-thymeleaf-crud" target="1.8" />
       <module name="springboot-03-web-restful" target="1.8" />
+      <module name="springboot-04-orm-jpa" target="1.8" />
       <module name="springboot01helloworld" target="1.8" />
       <module name="springboot02configuration" target="1.8" />
     </bytecodeTargetLevel>
@@ -28,6 +30,7 @@
       <module name="springboot-03-template" options="-parameters" />
       <module name="springboot-03-thymeleaf-crud" options="-parameters" />
       <module name="springboot-03-web-restful" options="-parameters" />
+      <module name="springboot-04-orm-jpa" options="-parameters" />
       <module name="springboot01helloworld" options="-parameters" />
       <module name="springboot02configuration" options="-parameters" />
     </option>
