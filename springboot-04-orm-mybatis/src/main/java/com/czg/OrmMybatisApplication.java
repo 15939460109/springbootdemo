@@ -6,7 +6,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
 //@MapperScan("com.czg.dao")
-@MapperScan("com.czg.tk.mapper")
+//@MapperScan("com.czg.tk.mapper")
 public class OrmMybatisApplication {
 
     public static void main(String[] args) {

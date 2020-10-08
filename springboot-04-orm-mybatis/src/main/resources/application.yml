@@ -1,13 +1,14 @@
 server:
   port: 8090
 
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=CST&useSSL=false&characterEncoding=utf8
-    username: root
-    password: root
-    # 默认根据url进行识别
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/test?serverTimezone=CST&useSSL=false&characterEncoding=utf8
+#    username: root
+#    password: root
+#    # 默认根据url进行识别
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
 # 使用mybatis-config.xml时的配置
 #mybatis:
 #  config-location: classpath:mybatis-config.xml
@@ -16,3 +17,17 @@ spring:
 #mybatis:
 #  mapper-locations: classpath*:/mybatis/mapper/*.xml
 #  type-aliases-package: com.czg.model
+
+# 多数据源使用
+spring:
+  datasource:
+    db1:
+      jdbc-url: jdbc:mysql://localhost:3306/test?serverTimezone=CST&useSSL=false&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    db2:
+      jdbc-url: jdbc:mysql://localhost:3306/testmybatis?serverTimezone=CST&useSSL=false&characterEncoding=utf8
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
