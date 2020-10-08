@@ -1,0 +1,53 @@
+
+body, p, h1, h2, h3, h4 {
+     margin: 0;
+ }
+
+th, td {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #424242;
+}
+
+button, input {
+    border: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.ml12 {
+    margin-left: 12px;
+}
+
+.input {
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    background: #008c8c;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.position {
+    margin-left: 100px;
+    margin-top: 20px;
+}

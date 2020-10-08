@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>嘉宾展示</title>
+    <link rel="stylesheet" th:href="@{/init.css}">
+</head>
+<body>
+    <h2 style="margin: 20px 30px;">嘉宾展示列表</h2>
+    <table style="margin-left: 70px;">
+        <thead>
+            <tr>
+                <th>嘉宾</th>
+                <th>角色</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="guest:${guestList}">
+                <td th:text="${guest.name}">name</td>
+                <td th:text="${guest.role}">role</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a th:href="@{/guest/toAdd}" class="position button">添加</a>
+
+</body>
+</html>
