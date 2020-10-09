@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-04-orm-mybatis/springboot-04-orm-mybatis.iml" filepath="$PROJECT_DIR$/springboot-04-orm-mybatis/springboot-04-orm-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-05-event-listener/springboot-05-event-listener.iml" filepath="$PROJECT_DIR$/springboot-05-event-listener/springboot-05-event-listener.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-05-web-container/springboot-05-web-container.iml" filepath="$PROJECT_DIR$/springboot-05-web-container/springboot-05-web-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-web-war/springboot-05-web-war.iml" filepath="$PROJECT_DIR$/springboot-05-web-war/springboot-05-web-war.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-servlet/springboot-06-servlet.iml" filepath="$PROJECT_DIR$/springboot-06-servlet/springboot-06-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" filepath="$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot02configuration/springboot02configuration.iml" filepath="$PROJECT_DIR$/springboot02configuration/springboot02configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springbootdemo.iml" filepath="$PROJECT_DIR$/.idea/springbootdemo.iml" />
