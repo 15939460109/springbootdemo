@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/springboot-04-orm-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-orm-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-04-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-event-listener/pom.xml" />
       </list>
     </option>
   </component>

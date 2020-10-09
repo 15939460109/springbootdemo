@@ -1,0 +1,7 @@
+server:
+  port: 8090
+
+# 通过配置的方式加载监听器
+context:
+  listener:
+    classes: com.czg.listener.CustomListener4

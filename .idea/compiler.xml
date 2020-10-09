@@ -8,13 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-03-template" />
-        <module name="springboot02configuration" />
         <module name="springboot-03-web-restful" />
+        <module name="springboot-04-orm-mybatis" />
         <module name="springboot01helloworld" />
+        <module name="springboot-05-event-listener" />
         <module name="springboot-03-templdate" />
         <module name="springboot-04-mybatis-plus" />
         <module name="springboot-03-thymeleaf-crud" />
-        <module name="springboot-04-orm-mybatis" />
+        <module name="springboot02configuration" />
         <module name="springboot-04-orm-jpa" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="springboot-04-mybatis-plus" target="1.8" />
       <module name="springboot-04-orm-jpa" target="1.8" />
       <module name="springboot-04-orm-mybatis" target="1.8" />
+      <module name="springboot-05-event-listener" target="1.8" />
       <module name="springboot01helloworld" target="1.8" />
       <module name="springboot02configuration" target="1.8" />
     </bytecodeTargetLevel>
@@ -37,6 +39,7 @@
       <module name="springboot-04-mybatis-plus" options="-parameters" />
       <module name="springboot-04-orm-jpa" options="-parameters" />
       <module name="springboot-04-orm-mybatis" options="-parameters" />
+      <module name="springboot-05-event-listener" options="-parameters" />
       <module name="springboot01helloworld" options="-parameters" />
       <module name="springboot02configuration" options="-parameters" />
     </option>
