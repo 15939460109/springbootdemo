@@ -1,0 +1,44 @@
+#server:
+#  port: 8090
+
+jasypt:
+  encryptor:
+    password: 123456!@#
+
+info:
+  username: ENC(3NRK48MHF6Q9+bXjw/cRlQ==)
+  password: ENC(JvpIukHyMGMP85vxtryEhA==)
+
+#清晰语法结构
+food:
+  rice: 大米饭
+  meat: 烤肉
+  #数组用法
+  sauce:
+    - 原味
+    - 酱汁
+    - 咖喱
+
+#流式语法结构
+#food: {rice: 大米饭,meat: 烤肉}
+
+#激活profiles
+spring:
+  profiles:
+    active: dev
+
+---
+#开发环境
+spring:
+  profiles: dev
+
+server:
+  port: 8090
+
+---
+#生产环境
+spring:
+  prifiles: prod
+
+server:
+  port: 8010

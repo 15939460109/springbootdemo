@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/springboot-05-web-war/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-error-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-logging/pom.xml" />
       </list>
     </option>
   </component>
