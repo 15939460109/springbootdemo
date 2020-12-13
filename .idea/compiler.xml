@@ -8,14 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot01helloworld" />
+        <module name="springboot-05-web-war" />
         <module name="springboot-04-orm-mybatis" />
-        <module name="springboot-03-templdate" />
         <module name="springboot-04-orm-jpa" />
         <module name="springboot-06-servlet" />
         <module name="springboot-04-mybatis-plus" />
         <module name="springboot-06-logging" />
         <module name="springboot-03-web-restful" />
-        <module name="springboot-05-web-war" />
+        <module name="springboot-03-templdate" />
+        <module name="springboot-06-swagger" />
         <module name="springboot-03-template" />
         <module name="springboot-05-event-listener" />
         <module name="springboot-06-error-exception" />
@@ -37,6 +38,7 @@
       <module name="springboot-06-error-exception" target="1.8" />
       <module name="springboot-06-logging" target="1.8" />
       <module name="springboot-06-servlet" target="1.8" />
+      <module name="springboot-06-swagger" target="1.8" />
       <module name="springboot01helloworld" target="1.8" />
       <module name="springboot02configuration" target="1.8" />
     </bytecodeTargetLevel>
@@ -55,6 +57,7 @@
       <module name="springboot-06-error-exception" options="-parameters" />
       <module name="springboot-06-logging" options="-parameters" />
       <module name="springboot-06-servlet" options="-parameters" />
+      <module name="springboot-06-swagger" options="-parameters" />
       <module name="springboot01helloworld" options="-parameters" />
       <module name="springboot02configuration" options="-parameters" />
     </option>

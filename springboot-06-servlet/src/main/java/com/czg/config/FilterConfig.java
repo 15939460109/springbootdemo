@@ -1,6 +1,6 @@
-package comczg.config;
+package com.czg.config;
 
-import comczg.filter.CustomFilter1;
+import com.czg.filter.CustomFilter1;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package comczg.filter;
+package com.czg.filter;
 
 import javax.servlet.*;
 import java.io.IOException;

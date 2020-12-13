@@ -1,4 +1,4 @@
-package comczg.filter;
+package com.czg.filter;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

@@ -1,4 +1,4 @@
-package comczg.interceptor;
+package com.czg.interceptor;
 
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;

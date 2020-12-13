@@ -1,3 +1,3 @@
-[2020-10-24 15:02:21.169] - 11124 信息 [main] --- org.apache.catalina.core.StandardService: Starting service [Tomcat]
-[2020-10-24 15:02:21.174] - 11124 信息 [main] --- org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.24]
-[2020-10-24 15:02:21.315] - 11124 信息 [main] --- org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext
+[2020-12-13 20:11:56.780] - 1056 信息 [main] --- org.apache.catalina.core.StandardService: Starting service [Tomcat]
+[2020-12-13 20:11:56.792] - 1056 信息 [main] --- org.apache.catalina.core.StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.24]
+[2020-12-13 20:11:56.983] - 1056 信息 [main] --- org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]: Initializing Spring embedded WebApplicationContext

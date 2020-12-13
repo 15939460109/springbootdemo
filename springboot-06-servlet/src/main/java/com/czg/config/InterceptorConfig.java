@@ -1,6 +1,6 @@
-package comczg.config;
+package com.czg.config;
 
-import comczg.interceptor.CustomInterceptor;
+import com.czg.interceptor.CustomInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

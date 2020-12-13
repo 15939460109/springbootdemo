@@ -1,4 +1,4 @@
-package comczg.controller;
+package com.czg.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
