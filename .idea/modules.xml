@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-06-servlet/springboot-06-servlet.iml" filepath="$PROJECT_DIR$/springboot-06-servlet/springboot-06-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-swagger/springboot-06-swagger.iml" filepath="$PROJECT_DIR$/springboot-06-swagger/springboot-06-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-07-groovy-cli/springboot-07-groovy-cli.iml" filepath="$PROJECT_DIR$/springboot-07-groovy-cli/springboot-07-groovy-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-actuator/springboot-08-actuator.iml" filepath="$PROJECT_DIR$/springboot-08-actuator/springboot-08-actuator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" filepath="$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot02configuration/springboot02configuration.iml" filepath="$PROJECT_DIR$/springboot02configuration/springboot02configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springbootdemo.iml" filepath="$PROJECT_DIR$/.idea/springbootdemo.iml" />
