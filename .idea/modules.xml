@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spingboot-07-groovy-cli/spingboot-07-groovy-cli.iml" filepath="$PROJECT_DIR$/spingboot-07-groovy-cli/spingboot-07-groovy-cli.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-template/springboot-03-template.iml" filepath="$PROJECT_DIR$/springboot-03-template/springboot-03-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-thymeleaf-crud/springboot-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/springboot-03-thymeleaf-crud/springboot-03-thymeleaf-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-web-restful/springboot-03-web-restful.iml" filepath="$PROJECT_DIR$/springboot-03-web-restful/springboot-03-web-restful.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-06-logging/springboot-06-logging.iml" filepath="$PROJECT_DIR$/springboot-06-logging/springboot-06-logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-servlet/springboot-06-servlet.iml" filepath="$PROJECT_DIR$/springboot-06-servlet/springboot-06-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-swagger/springboot-06-swagger.iml" filepath="$PROJECT_DIR$/springboot-06-swagger/springboot-06-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-07-groovy-cli/springboot-07-groovy-cli.iml" filepath="$PROJECT_DIR$/springboot-07-groovy-cli/springboot-07-groovy-cli.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" filepath="$PROJECT_DIR$/springboot01helloworld/springboot01helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot02configuration/springboot02configuration.iml" filepath="$PROJECT_DIR$/springboot02configuration/springboot02configuration.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springbootdemo.iml" filepath="$PROJECT_DIR$/.idea/springbootdemo.iml" />
