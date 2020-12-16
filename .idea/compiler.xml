@@ -13,17 +13,18 @@
         <module name="springboot-04-orm-jpa" />
         <module name="springboot-06-servlet" />
         <module name="springboot-04-mybatis-plus" />
-        <module name="springboot-03-thymeleaf-crud" />
         <module name="springboot-06-logging" />
         <module name="springboot-03-web-restful" />
         <module name="springboot-05-web-war" />
+        <module name="springboot-09-cache" />
         <module name="springboot-03-template" />
         <module name="springboot-05-event-listener" />
         <module name="springboot-06-error-exception" />
         <module name="springboot02configuration" />
         <module name="springboot-08-actuator" />
-        <module name="springboot-05-web-container" />
         <module name="springboot01helloworld" />
+        <module name="springboot-05-web-container" />
+        <module name="springboot-03-thymeleaf-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +42,7 @@
       <module name="springboot-06-servlet" target="1.8" />
       <module name="springboot-06-swagger" target="1.8" />
       <module name="springboot-08-actuator" target="1.8" />
+      <module name="springboot-09-cache" target="1.8" />
       <module name="springboot01helloworld" target="1.8" />
       <module name="springboot02configuration" target="1.8" />
     </bytecodeTargetLevel>
@@ -61,6 +63,7 @@
       <module name="springboot-06-servlet" options="-parameters" />
       <module name="springboot-06-swagger" options="-parameters" />
       <module name="springboot-08-actuator" options="-parameters" />
+      <module name="springboot-09-cache" options="-parameters" />
       <module name="springboot01helloworld" options="-parameters" />
       <module name="springboot02configuration" options="-parameters" />
     </option>
